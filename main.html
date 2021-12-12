@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>심리테스트</title>
+    <style>
+        a {
+            text-decoration:none;
+            color:black;
+        }
+        #log > ul > li {
+            display:inline-block;
+            width:120px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            font-size:0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="main.html">나만의 심리 테스트 만들기</a></h1>
+        <nav>
+            <div id="log">
+                <ul>
+                    <li><a href="login.html">회원가입</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <form action="search.php" method="post">
+            <fieldset>
+                <legend>초기설정</legend>
+                    <table>
+                        <colgroup>
+                            <col>
+                            <col>
+                        </colgroup>
+                        <tr>
+                            <th>제목</th>
+                            <td><input type="text" id="a"></td>
+                        </tr>
+                        <tr>
+                            <th>부제목</th>
+                            <td><input type="text" id="b"></td>
+                        </tr>
+                        <tr>
+                            <th>결과갯수</th>
+                            <td><input type="text" id="c"></td>
+                        </tr>
+                        <tr>
+                            <th>결과명</th>
+                            <td><input type="text" id="d"></td>
+                        </tr>
+                    </table>
+            </fieldset>
+            <input type="submit" id="e" value="제출">
+        </form>
+    <p>웹 화면을 다시 불러오려면 <kbd>F5</kbd>키를 누릅니다.</p>
+</body>
+</html>
