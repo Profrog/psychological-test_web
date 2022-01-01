@@ -1,0 +1,51 @@
+body{
+    font-family: 'Black Han Sans', sans-serif;
+    text-align: center;
+    font-size:  60px;
+    background-color: #CCECFF;
+    position :absolute;
+}
+
+
+.login_normal{
+    
+    position: relative;
+    text-align: center;
+    width: 1038px;
+    height: 628px;
+    left: 221px;
+    background: #FFFFFF;
+    border: 5px solid #5978B3;
+    border-radius: 10px;
+}
+
+.id_design{
+    font-family: 'Black Han Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin: 1% auto;
+    position: relative;
+    width: 921px;
+    height: 100px;
+}
+
+.hidden{
+    display: none;
+}
+
+.active{
+    position: relative;
+    width : 100px;
+    height : 100px;
+}
+
+.show{
+    position: relative;
+    text-align: center;
+    width: 1038px;
+    height: 628px;
+    left: 221px;
+    background: #FFFFFF;
+    border: 5px solid #5978B3;
+    border-radius: 10px;
+}
